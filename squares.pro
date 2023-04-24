@@ -1,6 +1,23 @@
-% Generate Orthogonal/Graeco-Latin/Euler squares using Prolog clp(FD).
+% Generate Orthogonal Latin squares using Prolog clp(FD).
 % Copyright 2022 Jan Plaza
-% Use under Creative Commons Attribution ShareAlike 4.0 International License.
+
+% Version of 2022/03/17
+
+% https://github.com/plazajan
+                    
+% Copyright 2022, Jan A. Plaza
+
+% This file is part of Prolog-CLP-FD-Orthogonal-Squares. It is free software: 
+% you can redistribute it and/or modify it under the terms 
+% of the GNU General Public License as published by the Free Software Foundation, 
+% either version 3 of the License, or (at your option) any later version. 
+% It is distributed in the hope that it will be useful, 
+% but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+% or FITNESS FOR A PARTICULAR PURPOSE. 
+% See the GNU General Public License for more details. 
+% You should have received a copy of the GNU General Public License 
+% along with Prolog-CLP-FD-Orthogonal-Squares. 
+% If not, see https://www.gnu.org/licenses/.
 
 /*
 What are they?
