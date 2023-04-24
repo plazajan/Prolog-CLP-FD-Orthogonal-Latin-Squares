@@ -1,5 +1,27 @@
+% Generate orthogonal Latin squares using GNU Prolog clp(FD).
+% Copyright 2022 Jan Plaza
+
+% Version of 2022/03/17
+
+% https://github.com/plazajan
+                    
+% Copyright 2022, Jan A. Plaza
+
+% This file is part of Prolog-CLP-FD-Orthogonal-Squares. It is free software: 
+% you can redistribute it and/or modify it under the terms 
+% of the GNU General Public License as published by the Free Software Foundation, 
+% either version 3 of the License, or (at your option) any later version. 
+% It is distributed in the hope that it will be useful, 
+% but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY 
+% or FITNESS FOR A PARTICULAR PURPOSE. 
+% See the GNU General Public License for more details. 
+% You should have received a copy of the GNU General Public License 
+% along with Prolog-CLP-FD-Orthogonal-Squares. 
+% If not, see https://www.gnu.org/licenses/.
+
 # Prolog-CLP-FD-Orthogonal-Squares
-A program in GNU Prolog with Constraint Logic Programming over finite arithmetical domain to find orthogonal Latin squares of a given size.
+A program in GNU Prolog with Constraint Logic Programming 
+over finite arithmetical domain to find orthogonal Latin squares of a given size.
 
 What are they?
 NxN squares, with each item being a pair of numbers 0..N-1.
@@ -29,4 +51,3 @@ The problem of generating orthogonal squares is difficult/expensive for any
 general purpose search algorithm, clp(FD) being one of them.
 The preprocessing using arc consistency, etc., does not reduce the domains
 of the variables -- see that by commenting out the line "fd_labeling(Vars)".
-
